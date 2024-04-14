@@ -1,0 +1,133 @@
+.main-sign-up{
+    width: 100%;
+    background-image: linear-gradient(#317280, #51B3B3);
+    position: absolute;
+    top:0%;
+}
+
+
+.main-sign-up .sign-up-form .error{
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+    text-align: center;
+    margin-bottom: 4%;
+    width: 100%;
+}
+
+.main-sign-up .heading .first{
+ width: 50%;
+ padding-top: 1.5%; 
+ padding-bottom: 1.5%;
+ font-size: 1.2vw;
+ float: left;
+ background-color: #ECEEF2;
+}
+
+.main-sign-up .heading .first .text{
+    padding-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+.main-sign-up .heading .second{
+    width: 50%;
+   
+    padding-bottom: 1.5%;
+    font-size: 1.2vw;
+    float: right;
+    text-align: right;
+    box-shadow: none;
+    background-color:  #ECEEF2;
+
+   }
+
+   .main-sign-up .heading .second .login{
+    padding-right: 3%;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   .main-sign-up .heading .second .login-button{
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 1vw;
+    background-color: #0176C7;
+    color:white;
+    cursor: pointer;
+    margin-right: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   .main-sign-up .heading .second .login-button:hover{
+    transform: scale(1.03);
+    background-color: rgb(212, 249, 246);
+    color: black;
+   }
+
+
+
+
+.main-sign-up .sign-up-form{
+    width: 34%;
+    padding-top: 5.5%;
+    padding-left: 33%;
+    margin-bottom: 4%;
+}
+
+
+.main-sign-up .sign-up-form form{
+    background-color: #202C4D;
+    color: #808cad;
+    border-radius: 3%;
+    padding: 5%;
+   box-shadow: #202C4D 2vw;
+}
+
+.main-sign-up .sign-up-form form p{
+   text-align: center;
+   font-size: 1.2vw;
+   font-weight: 500;
+}
+
+
+.main-sign-up .sign-up-form form label{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+     padding-top: 4%;
+     font-size: 1.1vw;
+}
+
+
+.main-sign-up .sign-up-form form input{
+    width: 97%;
+    margin: 2% 1% ;
+    padding: 1.2%;
+    background-color: #4F5972;
+    color: #525d7b;
+    font-size: 1vw;
+}
+
+.main-sign-up .sign-up-form form input:focus{
+     box-shadow: 0 0 9px rgb(38, 219, 255);
+}
+
+
+.main-sign-up .sign-up-form form button{
+    width: 100%;
+    padding: 1.3%;
+    margin: 4% 1%;
+    font-size: 1.2vw;
+    color: white;
+    background-color:  #70F1E1;
+    border-radius: 3%;
+    color:#419e99;
+    border-color: none;
+    cursor: pointer;
+}
+
+
+.main-sign-up .sign-up-form form button:hover{
+    transform: scale(1.01);
+   
+}
+
